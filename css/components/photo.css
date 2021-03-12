@@ -1,0 +1,9 @@
+.photoGi {
+    box-shadow: 5px 5px 0 #000;
+    transition: transform 150ms linear; 
+}
+
+.photoGi:hover{
+    transform: scale(1.08)
+}
+
