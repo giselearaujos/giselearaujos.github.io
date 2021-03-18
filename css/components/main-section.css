@@ -11,9 +11,19 @@
 }
 
 .main-section.-bgblack {
-    background-color: #000;   
+    background-color: #000; 
+    height: 400px;  
 }
  
 .main-section.-bdFirst {
     border-color: #E53D00;
+}
+
+.main-section.-bgSecond {
+     background-color: #473198;
+     height: 740px;
+}
+
+.main-section.-bdBlack {
+    border-color: #000;
 }
