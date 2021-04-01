@@ -1,0 +1,24 @@
+.main-contact {
+  padding: 50px 40px;
+  background-color:#3a4042;
+  height:200px;
+}
+
+.main-contact .main-title {
+    margin-bottom: 50px;
+}
+
+.contact {
+    display: flex;
+    justify-content:center;    
+}
+
+.icon-contact {
+    padding-left: 20px;
+    padding-right: 20px;  
+    transition: transform 150ms linear;  
+}
+
+.icon-contact:hover {
+    transform: scale(1.15);
+}
