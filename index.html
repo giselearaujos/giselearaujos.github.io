@@ -30,18 +30,18 @@
     <link rel="stylesheet" href="css/components/main-footer.css">
     <link rel="stylesheet" href="css/components/main-label.css">
     <link rel="stylesheet" href="css/components/main-input.css">
-    <link rel="stylesheet" href="css/components/main-form.css">
+    <link rel="stylesheet" href="css/components/main-contact.css">
     
 </head>
 <body>
     <header class="main-header">
         <img class="photoGi" src="assets/img/Gi.png" alt="Desenho Gisele">
         <nav>
-            <a class ="main-action" href="" lang="en">Skills</a>
-            <a class ="main-action" href="">Projetos</a>
-            <a class ="main-action" href="">Sobre</a>
-            <a class ="main-action" href="">Contato</a>
-            <a class="main-button" href="" lang="en">Download CV</a>
+            <a class ="main-action" href="#pageOne" lang="en">Skills</a>
+            <a class ="main-action" href="#pageTwo">Projetos</a>
+            <a class ="main-action" href="#pageThree">Sobre</a>
+            <a class ="main-action" href="#pageFour">Contato</a>
+            <a class="main-button" href="https://drive.google.com/file/d/1eUR_zJ8AoD9LkssnGYGY9ghoUi6Pv_df/view?usp=sharing" lang="en" target="_blank" >Download CV</a>
         </nav>
     </header>
     <section class="main-banner">
@@ -51,13 +51,13 @@
                 <h2 class="main-subtitle">Full Stack Developer Jr</h2>
             </div>
             <div class="navigation">
-                <a class="main-button" href="" lang="en">Download CV</a>
-                <a class="main-button" href="" >Contatos</a>       
+                <a class="main-button" href="https://drive.google.com/file/d/1eUR_zJ8AoD9LkssnGYGY9ghoUi6Pv_df/view?usp=sharing" lang="en" target="_blank">Download CV</a>
+                <a class="main-button" href="#pageFour" >Contatos</a>       
             </div>
         </div>
     </section>
-    <section class="main-section">
-        <h1 class="main-title -second" lang="en">Skills</h1>  
+    <section class="main-section" id="pageOne">        
+            <h1 class="main-title -second" lang="en">Skills</h1>       
         <div class="wrapper-skill">
             <article class="skill-tec">            
                 <img class="icon" src="./assets/img/ico_html5.png" alt="Ícone Html5">
@@ -117,8 +117,8 @@
             </article>
         </div>             
     </section>
-    <section class="main-section -bgblack -bdFirst">
-        <h1 class="main-title -second">Projetos</h1> 
+    <section class="main-section -bgblack -bdFirst" id="pageTwo">        
+            <h1 class="main-title -second">Projetos</h1>        
         <div class="wrapper-card">
             <a href="https://giselearaujos.github.io/">
                 <figure class="card-project">
@@ -127,8 +127,8 @@
             </a>          
         </div>
     </section>
-    <section class="main-section -bgSecond -bdBlack">
-        <h1 class="main-title -second">Sobre</h1> 
+    <section class="main-section -bgSecond -bdBlack" id="pageThree">        
+            <h1 class="main-title -second">Sobre</h1>         
         <section class="main-carousel">
             <button class="button-arrow -left"><span class="content">Avançar</span></button>
                 <div class="items">
@@ -155,31 +155,29 @@
             No ano de 2020, Guanabara anuncia 📣 que uma organização ajudaria jovens a aprender tecnologia e sair formados com uma oportunidade de mudar suas vidas🤩, nesse momento eu conheci a <strong><a href="https://recode.org.br/">Recode</a></strong>, que mudou minha vida e me deu a chance de ser Full Stack Developer Junior 💻🚀🌎.
         </p>
     </section> 
-        <form class="main-form"> 
-            <legend class="main-title -second">Contato</legend>
-
-            <label class="main-label" for="name">Nome:</label>
-            <input class="main-input" id="name" type="text"  required placeholder="Digíte seu nome..">
-
-            <label class="main-label" for="email">Email:</label>
-            <input class="main-input" id="email" type="email" required placeholder="Insira seu email ...">
-
-            <label class="main-label" for="message">Mensagem:</label>
-            <textarea class="main-input -textarea" id="message" required ></textarea>
-
-            <button class="main-button -full" type="submit">Enviar</button>
-        </form>
+        <section class="main-contact" id="pageFour">          
+                <h1 class="main-title -second">Contato</h1>            
+            <div class="contact">
+                <a href="https://br.linkedin.com/in/gisele-araujo-silva-21b420202" target="_blank">
+                    <abbr title="Meu Linkedin ✔️"><img class="icon-contact" src="./assets/img/icon-Linkedin.png" alt="Icone do Linkedin"></abbr>
+                </a>
+                <a href="https://mail.google.com/mail/u/0/?hl=pt-BR#inbox?compose=new" target="_blank">
+                    <abbr title="Mande um email! 📭"><img class="icon-contact" src="./assets/img/icon-gmail.png" alt="Icone do Gmail"></abbr>
+                </a>
+                <a href="https://github.com/giselearaujos" target="_blank">
+                    <abbr title="Meu repositório 👾"><img class="icon-contact" src="./assets/img/icon-github.png" alt="Icone do Github"></abbr>
+                </a>
+                <a href="https://twitter.com/home" target="_blank">
+                    <abbr title="Meu twitter 🐤"><img class="icon-contact" src="./assets/img/icon-twitter.png" alt="Icone do Twitter"></abbr>
+                </a>
+                <a href="https://discord.com/channels/@me" target="_blank">
+                    <abbr title="Meu discord 🎯"><img class="icon-contact" src="./assets/img/icon-discord.png" alt="Icone do Discord"></abbr>
+                </a>
+            </div>            
+        </section>
    
     <footer class="main-footer">
-        <a class="action" href="https://br.linkedin.com/in/gisele-araujo-silva-21b420202 " target="_blank">
-            <img src="./assets/img/icon-linkdin.png" alt="Logo do Linkedin">
-        </a>
-        <a class="action" href="https://github.com/giselearaujos" target="_blank">
-            <img src="./assets/img/icon-github.png" alt="Logo do Github">
-        </a>
-        <a class="action" href="https://discord.com/channels/@me" target="_blank">
-            <img src="./assets/img/icon-discord.png" alt="Logo do Discord">
-        </a>       
+        <p>&copy; 2021 Gisele Araujo Silva</p>        
     </footer>
     
     <script src="js/components/main-carousel.js"></script>
