@@ -8,8 +8,30 @@
 
 .wrapper-skill .skill-tec {
     width:430px;
-    margin-bottom: 40px;
+    margin-bottom: 40px;    
 }
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px); 
+    }
+}
+
+.icon:hover {
+    animation: bounce 1s;      
+}
+
 
 .wrapper-skill .skill-tec:nth-child(odd){
     margin-right: 100px;
