@@ -11,7 +11,7 @@
     width:90px;
 }
 
-.skill-tec .rigth {
+.skill-tec .right {
     display: flex;
     flex-direction: column;
     justify-content:space-around;
